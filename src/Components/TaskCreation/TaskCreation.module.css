@@ -1,0 +1,37 @@
+.main {
+    background-color: darkolivegreen;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -10px;
+    height: 68px;
+    border-radius: 6px;
+}
+
+.input {
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 14px;
+    height: 32px;
+    border: 1px solid rgb(118, 148, 66);
+    width: 400px;
+    outline: none;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+.button {
+    outline: none;
+    background-color: grey;
+    color: snow;
+    font-size: 20px;
+    width: 100px;
+    height: 36px;
+    margin-left: 442px;
+    margin-top: 16px;
+    border: 1px solid grey;
+    border-radius: 6px;
+}
+
+.button:hover {
+    background-color: rgb(118, 148, 66);
+}

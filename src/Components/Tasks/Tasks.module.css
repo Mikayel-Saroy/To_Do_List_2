@@ -1,0 +1,61 @@
+.main {
+    background-color: rgb(118, 148, 66);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 6px;
+    display: grid;
+    grid-template-areas: 't i';
+}
+
+.main:hover {
+    background-color: darkolivegreen;
+}
+
+.editIcon {
+    position: absolute;
+    display: none;
+    margin-top: 10px;
+    height: 3%;
+    margin-left: 460px;
+}
+
+.main:hover > .editIcon {
+    display: inline-block;
+}
+
+.task {
+    grid-area: t;
+    margin-left: 18px;
+    margin-top: 8px;
+    font-size: 20px;
+}
+
+.isDone {
+    position: absolute;
+    width: 60px;
+    margin-left: 490px;
+    margin-top: 10px;
+}
+.editInput {
+    position: absolute;
+    outline: none;
+    height: 24px;
+    width: 320px;
+    margin-top: 6px;
+    margin-left: 6px;
+    border: 1px solid darkolivegreen;
+    border-radius: 6px;
+}
+.editButton {
+    position: absolute;
+    outline: none;
+    height: 26px;
+    margin-left: 340px;
+    margin-top: 7px;
+    background-color: grey;
+    color: snow;
+    border: 1px solid grey;
+    border-radius: 6px;
+}

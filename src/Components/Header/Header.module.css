@@ -1,0 +1,14 @@
+.head {
+    margin-left: 30px;
+}
+.headLine {
+    color: darkolivegreen;
+    font-size: 25px;
+}
+
+.count {
+    color: dimgrey;
+    font-size: 20px;
+    margin-top: -2px;
+    margin-left: 6px;
+}
